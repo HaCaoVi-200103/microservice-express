@@ -1,21 +1,24 @@
 {
   "name": "music-service",
   "version": "1.0.0",
-  "main": "music.js",
-  "type": "module",
+  "main": "music.ts",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon music.js",
-    "dev": "nodemon music.js"
+    "start": "nodemon music.ts",
+    "dev": "nodemon music.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.2"
   }
 }
